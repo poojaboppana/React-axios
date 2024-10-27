@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(49, 30, 92);
+color: wheat;
+text-align: center;
+}
+.nav-bar{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 10px;
+    
+}
+.nav-bar ul{
+    display: flex;
+  
+    gap: 200px;
+    flex-direction: row;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 40px;
+    background-color: rgb(8, 22, 31);
+    height: auto;
+    width: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+.nav-bar ul li{
+    list-style-type: none;
+}
+h1{
+    margin-top: 150px;
+    font-size: 40px;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.home-descript{
+    margin-top: 100px;
+}

@@ -1,0 +1,30 @@
+body{
+   background-color:  rgb(49, 30, 92); 
+}
+.jokes-container{
+    color: black;
+    background-color: aquamarine;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+.jokes-container:hover{
+    transform: scale(1.2);
+    margin-left: 4px;
+    margin-right: 4px;
+}
+li{
+    list-style: none;
+    padding: 15px;
+}
+h2{
+    color: rgb(44, 2, 34);
+}
+h1{
+    margin-top: 0px;
+    font-size: 60px;
+}
+.joke-home a{
+    display: inline-block;
+    margin-left: 1100px;
+    margin-top: 5px;
+}
